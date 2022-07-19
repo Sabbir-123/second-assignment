@@ -110,12 +110,22 @@ body{
     font-weight: 500;
     font-size: 16px;
 }
-
-.blogs-duration{
+.blogs-durtation{
     display: flex;
+}
+
+.blogs-duration-time{
+    display: flex;
+    align-items: center;
+}
+.blogs-duration-message{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
 }
 .message{
     margin-left: 30px;
+    align-items: center;
 }
 
 
@@ -161,4 +171,10 @@ hr{
 }
 .icons i{
     margin-left: 20px;
+}
+
+
+@media only screen and (max-width:688px) {
+
+    
 }
