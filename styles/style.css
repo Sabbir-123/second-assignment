@@ -117,3 +117,48 @@ body{
 .message{
     margin-left: 30px;
 }
+
+
+/* Footer */
+
+.footer-f{
+    width: 100%;
+    height: 350px;
+    background-color: #161616;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer-area{
+    margin-top: 80px;
+    
+}
+.footer-heading{
+    padding-top: 80px;
+    font-size: 25px;
+    font-weight: 600;
+}
+hr{
+    margin-top: 30px;
+    width: 1380px;
+    margin-bottom: 30px;
+}
+.contact-area{
+    margin-left: 300px;
+    width: 1000px;
+    
+}
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-us li{
+    list-style-type: none;
+    padding-left: 30px;
+}
+.icons{
+    margin-top: 40px;
+}
+.icons i{
+    margin-left: 20px;
+}
