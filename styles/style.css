@@ -193,7 +193,7 @@ body{
 }
 hr{
     margin-top: 30px;
-    width: 1380px;
+    width: 1000px;
     margin-bottom: 30px;
 }
 .contact-area{
@@ -226,6 +226,12 @@ hr{
         display: block;
         margin: 5px 10px;
     }
+    .first-banner-items{
+        display: grid;
+        width: 100%;
+        align-items: end;
+        justify-items: center;
+       }
     .first-banner-heading{
         padding: 0;
         text-align: center;
@@ -238,13 +244,7 @@ hr{
     .first-banner-heading p{
         font-size: 14px;
      }
-   .first-banner-items{
-    display: grid;
-    width: 100%;
-    align-items: end;
-    justify-items: center;
-    
-   }
+   
    .live-button{
     width: 161px;
     height: 40px;
@@ -276,6 +276,12 @@ hr{
     padding-top: 30px;
     padding-left: 55px;
 }
+hr{
+    width: 300px;
+}
+.contact-area{
+    margin-left: -60px;
+}
 .contact-us{
     display: grid;
     font-size: 30px;
@@ -286,9 +292,7 @@ hr{
     font-weight: 400;
     font-size: 20px;
 }
-.contact-area{
-    margin-left: -60px;
-}
+
 .hidden{
     display: none;
 }
