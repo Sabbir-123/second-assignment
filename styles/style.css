@@ -270,6 +270,7 @@ hr{
     .container{
         display: block;
         margin: 5px 10px;
+        overflow-x: hidden;
     }
     .first-banner-items{
         display: grid;
@@ -316,6 +317,7 @@ hr{
     .blogs-bar{
     background-color: #FFFFFF;
     margin-left: 10px;
+    display: flex;
 }
 .blogs-bar-item{
     padding-top: 30px;
