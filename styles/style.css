@@ -39,6 +39,7 @@ body{
     right: 0;
     opacity: 1;
     z-index: -1;
+    border-radius: 30px;
 }
 .first-banner-heading{
     padding: 111px 106px;
